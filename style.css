@@ -377,7 +377,7 @@ height : auto;
   opacity: 1;
 }
 
-.coeur_vide:active
+.coeur_vide:hover
 {
   opacity: 0;
 }
