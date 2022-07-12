@@ -369,10 +369,10 @@ height : auto;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  transition: opacity 500ms;
+  transition: opacity 3000ms;
 }
 
-.coeur_vide:active + .coeur_plein
+.coeur_vide:hover + .coeur_plein
 {
   opacity: 1;
 }
