@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://kit.fontawesome.com/07e4e02bc5.js" crossorigin="anonymous"></script>
+	<title>Projet 3</title>
+</head>
+
+<body>
+
+	<div id="conteneur_loader"> 
+		<div class="loader"></div>
+	</div>
+
+	<div id="conteneur_global">
+
+		<!-- *** EN TÊTE LIENS *** -->
+		<!-- ********************* -->
+
+		<header> 
+			<div id="conteneur_logo">
+				<img src="images/logo/ohmyfood.png" id="logo_accueil" alt="Logo de ohmyfood" />
+			</div>			
+			<div id="accueil">
+				<div id="accueil_titre_conteneur">
+					<div id="accueil_titre">
+						<div class="fa-lg_black"> 
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div id="accueil_titre_texte"> Paris, Belleville</div>
+					</div>
+				</div>
+				<div id="accueil_slogan_01"> Réservez le menu qui vous convient
+				</div>
+				<div id="accueil_slogan_02"> Découvrez des restaurants d'exceptions,<br> sélectionnés par nos soins
+				</div>
+				<div id="accueil_slogan_03_conteneur"> 
+					<div id="accueil_slogan_03"> Explorer nos restaurants</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- *** FONCTIONNEMENT *** -->
+		<!-- ********************** -->
+
+		<section id="fonctionnement">
+
+			<div id="fonctionnement_conteneur">
+
+				<div id="fonctionnement_titre_conteneur">
+					<div id="fonctionnement_titre_position">Fonctionnement</div>
+				</div>
+
+				<div id="fonctionnement_bouton_conteneur">
+
+					<div class="fonctionnement_bouton">
+
+						<div class="fonctionnement_bouton_texte">Choisissez un restaurant</div>
+						<i class="fas fa-mobile-alt sgrey"></i>
+						<div class="fonctionnement_bouton_enum"> 
+							<p class= "fonctionnement_couleur_enum"> 1 </p>
+						</div>
+					</div>
+	
+					<div class="fonctionnement_bouton">
+						<div class="fonctionnement_bouton_texte">Composez votre menu</div>
+						<i class="fas fa-list sgrey"></i>
+						<div class="fonctionnement_bouton_enum"> 
+							<p class= "fonctionnement_couleur_enum"> 2 </p>
+						</div>
+					</div>
+
+					<div class="fonctionnement_bouton">
+						<div class="fonctionnement_bouton_texte">Dégustez au restaurant</div>
+						<i class="fas fa-store sgrey"></i>
+						<div class="fonctionnement_bouton_enum"> 
+							<p class= "fonctionnement_couleur_enum"> 3 </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- *** RESTAURANTS *** -->
+		<!-- ******************* -->
+
+		<section id="restaurants">
+
+			<div id="restaurants_cartes_conteneur_global">
+				<div class ="restaurants_cartes_conteneur_demi_global">
+
+					<figure class="restaurants_cartes_conteneur">
+						<div class="restaurants_titre_position">Restaurants</div>
+						<div class="restaurants_carte_photo_conteneur">
+							<div class="restaurants_carte" onclick="location.href='index_Palette.html';">
+								<div class="restaurants_carte_nouveau"> Nouveau </div>
+								<img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="restaurant_image" alt="La palette du goût à Ménilmontant"/>
+							</div>
+						</div>
+						<figcaption class="restaurant_carte_info">
+							<div class="restaurant_txtbox_conteneur">
+								<div class="restaurant_txtbox_01">La palette du goût</div>
+								<div class="restaurant_txtbox_02">Ménilmontant</div>
+							</div>
+							<div class="coeurs">
+								<i class="far fa-heart fa-lg-spe coeur_vide"></i>
+								<i class="fas fa-heart fa-lg-spe coeur_plein"></i>
+							</div>
+						</figcaption>
+					</figure>
+
+					<figure class="restaurants_cartes_conteneur">
+						<div class="restaurants_titre_position"></div>
+						<div class="restaurants_carte_photo_conteneur">
+							<div class="restaurants_carte" onclick="location.href='index_Note.html';">
+								<div class="restaurants_carte_nouveau"> Nouveau </div>
+								<img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" class="restaurant_image" alt="La note enchantée à Charonne"/>
+							</div>
+						</div>
+						<figcaption class="restaurant_carte_info">
+							<div class="restaurant_txtbox_conteneur">
+								<div class="restaurant_txtbox_01">La note enchantée</div>
+								<div class="restaurant_txtbox_02">Charonne</div>
+							</div>
+							<div class="coeurs">
+								<i class="far fa-heart fa-lg-spe coeur_vide"></i>
+								<i class="fas fa-heart fa-lg-spe coeur_plein"></i>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+				<div class ="restaurants_cartes_conteneur_demi_global">
+
+					<figure class="restaurants_cartes_conteneur">
+						<div class="restaurants_titre_position"></div>
+						<div class="restaurants_carte_photo_conteneur">
+							<div class="restaurants_carte" onclick="location.href='index_Française.html';">
+								<div class="restaurants_carte_nouveau vide"></div>
+								<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" class="restaurant_image" alt="À la française à Cité Rouge"/>
+							</div>
+						</div>
+						<figcaption class="restaurant_carte_info">
+							<div class="restaurant_txtbox_conteneur">
+								<div class="restaurant_txtbox_01">À la française</div>
+								<div class="restaurant_txtbox_02">Cité Rouge</div>
+							</div>
+							<div class="coeurs">
+								<i class="far fa-heart fa-lg-spe coeur_vide"></i>
+								<i class="fas fa-heart fa-lg-spe coeur_plein"></i>
+							</div>
+						</figcaption>
+					</figure>
+
+					<figure class="restaurants_cartes_conteneur">
+						<div class="restaurants_titre_position"></div>
+						<div class="restaurants_carte_photo_conteneur">
+							<div class="restaurants_carte" onclick="location.href='index_Délice.html';">
+								<div class="restaurants_carte_nouveau vide"></div>
+								<img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" class="restaurant_image" alt="Le délice des"/>
+							</div>
+						</div>
+						<figcaption class="restaurant_carte_info">
+							<div class="restaurant_txtbox_conteneur">
+								<div class="restaurant_txtbox_01">Le délice des sens</div>
+								<div class="restaurant_txtbox_02">Folie-Méricourt</div>
+							</div>
+							<div class="coeurs">
+								<i class="far fa-heart fa-lg-spe coeur_vide"></i>
+								<i class="fas fa-heart fa-lg-spe coeur_plein"></i>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section> 
+
+		<!-- *** FOOTER *** -->
+		<!-- ************** -->
+
+		<footer> 
+			<div id="footer_haut">ohmyfood</div>
+			<div class="footer_milieu">
+				<div class="footer_milieu_icone">
+					<i class="fas fa-utensils"></i>
+				</div> 
+				<div class="footer_milieu_texte">Proposer un restaurant</div> 
+			</div>
+			<div class="footer_milieu">
+				<div class="footer_milieu_icone">
+					<i class="fas fa-hands-helping"></i>
+				</div> 
+				<div class="footer_milieu_texte">Devenir partenaire</div> 
+			</div>
+			<div class="footer_bas">Mentions légales</div>
+			<div class="footer_bas" onclick="location.href='mailto:votrenom@bidule.com'">Contact</div>
+
+		</footer>
+					
+	</div>
+</body>
+</html>                     
